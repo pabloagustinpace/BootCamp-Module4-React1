@@ -1,0 +1,33 @@
+.card{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  cursor: pointer;
+  width: 300px;
+  text-align: center;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+.card:last-of-type{
+  margin-right: 0;
+}
+
+.card-figure{
+  height: 200px;
+  object-fit: contain;
+}
+
+.card:hover{
+  transition: all 0.5s ease-out;
+  transform: scale(1.2);
+  background: whitesmoke;
+  padding: 1.2rem;
+}
+
+span{
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: center;
+}

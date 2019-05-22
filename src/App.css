@@ -1,0 +1,21 @@
+body{
+    background: coral;
+}
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-app{
+
+}
+
+.nav-app input,.nav-app button {
+  padding: 1rem;
+}
